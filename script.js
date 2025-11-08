@@ -9,11 +9,11 @@ addEventListener("click", GetResult)
 
 function GetResult(){
     if (select.value = "/")
-        result.innerText = userInput.value / userInput2.value;
+        result.innerText = +userInput.value / +userInput2.value;
     if (select.value = "*")
-        result.innerText = userInput.value * userInput2.value;
+        result.innerText = +userInput.value * +userInput2.value;
     if (select.value = "-")
-        result.innerText = userInput.value - userInput2.value;
+        result.innerText = +userInput.value - +userInput2.value;
     if (select.value = "+")
-        result.innerText = userInput.value + userInput2.value;
+        result.innerText = +userInput.value + +userInput2.value;
 }
